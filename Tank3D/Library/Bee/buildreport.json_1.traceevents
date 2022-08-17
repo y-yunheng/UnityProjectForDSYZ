@@ -1,0 +1,458 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1660208688751633, "dur": 2311784, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208688753030, "dur": 50017, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208688803198, "dur": 2249938, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208691053154, "dur": 10262, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208705172111, "dur": 443133, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208705172391, "dur": 6862, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208705179256, "dur": 423432, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208705602690, "dur": 12553, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208705616572, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1660208705519915, "dur":2660, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705522585, "dur":215, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1660208705522845, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1660208705522880, "dur":507, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1660208705523412, "dur":706, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705524118, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578345, "dur":63, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578408, "dur":80, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578488, "dur":143, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578631, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578668, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578671, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578699, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578700, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578713, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578715, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578720, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578721, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578729, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578730, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578735, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578737, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578741, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578743, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578748, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578749, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578754, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578755, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578760, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578761, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578768, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578781, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705578809, "dur":3739, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1660208705523863, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705524138, "dur":10806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705534948, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1660208705535270, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705535370, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1660208705535634, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705535741, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1660208705535965, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705536042, "dur":3067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/where-allocations.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705539110, "dur":1041, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705540153, "dur":2334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705542487, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705542542, "dur":3253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705545795, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705545860, "dur":2023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705547883, "dur":640, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705548525, "dur":2060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705550585, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705550978, "dur":1907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705552886, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705552951, "dur":3093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705556044, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705556122, "dur":3162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705559284, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705559346, "dur":1959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705561306, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705561359, "dur":2191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705563550, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705563614, "dur":2341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660208705565956, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705566093, "dur":1026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1660208705567127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660208705567132, "dur":9786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1660208705577540, "dur":787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705524028, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705524168, "dur":10791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705534961, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1660208705535800, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705536162, "dur":3008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705539171, "dur":1017, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705540190, "dur":3102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705543292, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705543353, "dur":2121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705545474, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705545542, "dur":2173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705547716, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705548290, "dur":1856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705550147, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705550269, "dur":1482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705551752, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705551827, "dur":1996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705553824, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705553886, "dur":3028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705556914, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705556979, "dur":3196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705560176, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705560359, "dur":2178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705562537, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705562656, "dur":2826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Mirror.Examples.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660208705565483, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705565557, "dur":1027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1660208705566585, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705566665, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1660208705567334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660208705567338, "dur":8777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1660208705576269, "dur":2074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705523928, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705524151, "dur":10798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705534950, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1660208705535680, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705535881, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705536220, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705536323, "dur":2669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705538992, "dur":1063, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705540056, "dur":1688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705541745, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705541814, "dur":2026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705543840, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705543914, "dur":3323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705547237, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705547308, "dur":895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705548203, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705548578, "dur":2042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705550620, "dur":499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705551120, "dur":1984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705553104, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705553172, "dur":2068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705555240, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705555368, "dur":3102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705558470, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705558536, "dur":1932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705560469, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705560553, "dur":2108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705562661, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705562727, "dur":2907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660208705565634, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705565782, "dur":1188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1660208705566976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660208705566982, "dur":9379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1660208705577397, "dur":934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705523980, "dur":180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705524161, "dur":10781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705534949, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1660208705535281, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705535450, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1660208705535782, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705535888, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1660208705536203, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705536298, "dur":2679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705538978, "dur":1033, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705540013, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705540744, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705540804, "dur":2047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705542851, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705542914, "dur":2125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705545039, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705545099, "dur":2916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705548015, "dur":547, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705548563, "dur":2057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705550621, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705551074, "dur":1982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705553056, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705553126, "dur":3554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705556680, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705556872, "dur":3333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705560205, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705560372, "dur":2188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705562560, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705562664, "dur":2874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660208705565538, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705565642, "dur":1569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1660208705567212, "dur":950, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705568165, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1660208705568332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660208705568336, "dur":8154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1660208705577502, "dur":833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705524074, "dur":101, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705524175, "dur":10779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705534957, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1660208705535683, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705535875, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705536167, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705536278, "dur":2770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705539048, "dur":1100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705540150, "dur":2260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705542411, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705542490, "dur":2046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705544536, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705544603, "dur":3179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705547782, "dur":651, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705548435, "dur":2038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705550473, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705550531, "dur":1434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705551966, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705552027, "dur":2104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705554132, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705554207, "dur":3124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705557332, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705557399, "dur":2054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705559454, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705559519, "dur":2099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705561618, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705561725, "dur":3147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660208705564872, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705564969, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660208705565181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660208705568211, "dur":8391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660208705577488, "dur":834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705524126, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705524127, "dur":10806, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705534948, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1660208705534950, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705535187, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1660208705535189, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705535285, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1660208705535566, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705535652, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660208705535907, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705536030, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D.exe" }}
+,{ "pid":12345, "tid":6, "ts":1660208705536295, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705536378, "dur":2644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705539023, "dur":1056, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705540080, "dur":1944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705542026, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705542116, "dur":2016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705544132, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705544241, "dur":3301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705547543, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705547905, "dur":882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705548788, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705548846, "dur":1967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705550814, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705551247, "dur":2002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705553250, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705553474, "dur":3239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705556714, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705556894, "dur":3247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705560142, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705560251, "dur":2136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705562387, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705562456, "dur":2099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660208705564555, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705564674, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1660208705564876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705566776, "dur":6879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1660208705573932, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1660208705574306, "dur":1319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660208705575627, "dur":2702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705524173, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705524173, "dur":10785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705534960, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1660208705535221, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705535315, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1660208705535648, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705535774, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1660208705536357, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705536436, "dur":2654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705539091, "dur":1048, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705540140, "dur":1782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705541922, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705542037, "dur":2026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705544063, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705544124, "dur":3427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705547552, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705547996, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705548848, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705548994, "dur":1916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705550911, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705551266, "dur":2012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705553278, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705553506, "dur":3163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705556669, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705556841, "dur":3126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705559968, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705560027, "dur":2058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705562086, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705562148, "dur":2127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660208705564275, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705564345, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1660208705564505, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705565620, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1660208705570562, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1660208705570977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660208705570981, "dur":6840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1660208705578249, "dur":88, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705524232, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705524233, "dur":10740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705534974, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1660208705535821, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705536242, "dur":2684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705538927, "dur":918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705539847, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705540005, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705540357, "dur":1938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705542295, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705542367, "dur":2000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705544368, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705544450, "dur":3307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705547757, "dur":682, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705548440, "dur":1955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705550395, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705550455, "dur":1446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705551902, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705551967, "dur":3246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705555214, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705555359, "dur":3167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705558526, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705558598, "dur":1955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705560554, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705560613, "dur":2141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705562755, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705562818, "dur":2767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660208705565586, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705565699, "dur":1101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1660208705566806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660208705566812, "dur":9521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1660208705577323, "dur":1007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705524287, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705524287, "dur":10669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705534957, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1660208705535671, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705535865, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705536148, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705536233, "dur":2659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705538893, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705539196, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705539376, "dur":899, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705540277, "dur":1982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705542260, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705542328, "dur":2001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705544330, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705544394, "dur":3286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705547681, "dur":582, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705548264, "dur":1882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705550146, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705550263, "dur":1542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705551806, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705551875, "dur":2053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705553929, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705553991, "dur":3013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705557005, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705557069, "dur":2023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705559092, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705559151, "dur":1997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705561149, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705561214, "dur":2228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705563442, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705563503, "dur":2168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660208705565672, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705565815, "dur":1176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1660208705567000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660208705567033, "dur":10631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1660208705577831, "dur":494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705524342, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705524343, "dur":10618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705534962, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1660208705535810, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705536033, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1660208705536293, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705536361, "dur":2684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705539045, "dur":1043, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705540090, "dur":1857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705541948, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705542081, "dur":2073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705544154, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705544260, "dur":3329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705547589, "dur":619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705548210, "dur":2653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705550864, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705551266, "dur":1995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705553262, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705553490, "dur":3011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705556501, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705556590, "dur":3227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705559817, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705559879, "dur":1964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705561843, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705561971, "dur":2124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705564096, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705564199, "dur":1696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705565899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705565993, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660208705570562, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1660208705570905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660208705570915, "dur":6900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1660208705578239, "dur":85, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705524399, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705524400, "dur":10603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705535004, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1660208705535820, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705536065, "dur":1915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705537981, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705538064, "dur":1096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705539160, "dur":1241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705540403, "dur":2130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705542533, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705542598, "dur":2052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705544650, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705544712, "dur":3162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705547874, "dur":667, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705548543, "dur":2044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705550587, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705551035, "dur":1930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705552965, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705553033, "dur":3336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705556369, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705556495, "dur":3181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705559677, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705559738, "dur":1892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705561630, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705561740, "dur":3116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660208705564856, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705564945, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1660208705565164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660208705567500, "dur":10437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1660208705578295, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1660208705578296, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705524441, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705524442, "dur":10504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705534952, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1660208705535738, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705536292, "dur":2767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705539060, "dur":1030, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705540092, "dur":1774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705541866, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705541947, "dur":2004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705543951, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705544015, "dur":3437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705547452, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705547531, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705548235, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705548588, "dur":2099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705550687, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705551166, "dur":2028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705553194, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705553257, "dur":3111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705556369, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705556503, "dur":3255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705559758, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705559827, "dur":2017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705561844, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705561973, "dur":2163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660208705564138, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705564255, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1660208705564546, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705564607, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:///mirrodemo/Tank3D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1660208705564829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660208705566045, "dur":10266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:///mirrodemo/Tank3D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1660208705577138, "dur":1190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660208705585196, "dur":1759, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1660208705616893, "dur": 1282, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660208705616557, "dur": 1646, "ph": "X", "name": "Write chrome-trace events", "args": {} },
