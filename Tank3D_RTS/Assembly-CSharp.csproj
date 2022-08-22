@@ -69,6 +69,7 @@
     <Compile Include="Assets\ImportPacket\Tank_tutorial\_Completed-Assets\Scripts\UI\UIDirectionControl.cs" />
     <Compile Include="Assets\ImportPacket\Tank_tutorial\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\ImportPacket\Tank_tutorial\_Completed-Assets\Scripts\Managers\TankManager.cs" />
+    <Compile Include="Assets\Resources\脚本\MemorySharePython.cs" />
     <Compile Include="Assets\ImportPacket\Tank_tutorial\_Completed-Assets\Scripts\Camera\CameraControl.cs" />
     <Compile Include="Assets\ImportPacket\Tank_tutorial\_Completed-Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Resources\脚本\CameraMouseScript.cs" />
@@ -81,11 +82,10 @@
     <Compile Include="Assets\ImportPacket\Tank_tutorial\_Completed-Assets\Scripts\Tank\TankHealth.cs" />
     <Compile Include="Assets\Resources\预制体\Tanks\BaseTank\Script\TankControl.cs" />
     <Compile Include="Assets\ImportPacket\Tank_tutorial\Scripts\Managers\TankManager.cs" />
+    <Compile Include="Assets\Resources\预制体\Tanks\BaseTank\Script\OtherLanguageControl.cs" />
     <Compile Include="Assets\ImportPacket\Tank_tutorial\Scripts\Tank\TankShooting.cs" />
     <Compile Include="Assets\ImportPacket\Tank_tutorial\_Completed-Assets\Scripts\Tank\TankMovement.cs" />
     <Compile Include="Assets\Resources\预制体\Bull\Script\BullDestory.cs" />
-    <Compile Include="Assets\Resources\预制体\Tanks\BaseTank\Script\OtherLanguageControl.cs" />
-    <Compile Include="Assets\Resources\脚本\MemorySharePython.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ImportPacket\Tank_tutorial\Fonts\Bowlby_One\FontLicense.txt" />

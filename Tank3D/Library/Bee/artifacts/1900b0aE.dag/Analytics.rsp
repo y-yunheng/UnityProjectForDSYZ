@@ -383,10 +383,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Resources/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll"
--analyzer:"Assets/Resources/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll"
--analyzer:"Assets/Resources/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll"
--analyzer:"Assets/Resources/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll"
 "Library/PackageCache/com.unity.analytics@3.5.3/Editor/AnalyticsEditorCallbacks.cs"
 -langversion:9.0
 
