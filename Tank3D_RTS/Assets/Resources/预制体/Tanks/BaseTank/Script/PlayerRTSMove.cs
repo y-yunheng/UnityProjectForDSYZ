@@ -5,62 +5,83 @@ using UnityEngine;
 public class PlayerRTSMove : MonoBehaviour
 {
     public Camera camera;
-    public List<SelectableCharacter> selectableChars;
-    private AgentInfo agentinfo;
+    public GameObject SelectingBox;
+    public List<GameObject> selectedGameObject;
+    GameObject[] gms; 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        agentinfo = GetComponent<AgentInfo>();
+        
     }
     void Awake()
     {
-        
-        
+       gms = GameObject.FindGameObjectsWithTag("Tank");
     }
 
     void Update()
     {
+        GetSelectedGameObject();
+        Debug.Log(selectedGameObject.Count);
         if (Input.GetMouseButtonDown(1))
         {
             Debug.Log("运行");
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit = new RaycastHit();        
-            if (Physics.Raycast(ray, out hit, 100f)&&agentinfo.is_select)
+            if (Physics.Raycast(ray, out hit, 100f) && selectedGameObject.Count>0)
             {
                 
                 if (hit.transform.gameObject.GetComponent<AgentInfo>() != null)
                 {
-                    if(agentinfo.group != hit.transform.gameObject.GetComponent<AgentInfo>().group)
-                    {           
-                        agentinfo.attack_id = hit.transform.gameObject.GetComponent<AgentInfo>().id;
+                    foreach (GameObject go in selectedGameObject)
+                    {
+                        AgentInfo agentinfo = go.GetComponent<AgentInfo>();
+                        if (agentinfo.group != hit.transform.gameObject.GetComponent<AgentInfo>().group)
+                        {
+                            agentinfo.attack_id = hit.transform.gameObject.GetComponent<AgentInfo>().id;
+                        }
                     }
                    
                 }
                 else
-                {
-                    agentinfo.dpos[0] = hit.point[0];
-                    agentinfo.dpos[1] = hit.point[1];
-                    agentinfo.dpos[2] = hit.point[2];
-                    agentinfo.attack_id = -1;
+                {   foreach (GameObject go in selectedGameObject)
+                    {
+                        AgentInfo agentinfo = go.GetComponent<AgentInfo>();
+                        agentinfo.dpos[0] = hit.point[0];
+                        agentinfo.dpos[1] = hit.point[1];
+                        agentinfo.dpos[2] = hit.point[2];
+                        agentinfo.attack_id = -1;
+                    }
+                    
 
                 }
             }
         }
-        if(Input.GetKey("l") && agentinfo.is_select)
+        if(Input.GetKey("l"))
         {
-            if(agentinfo.is_auto_attack ==1)
+            foreach (GameObject go in selectedGameObject)
             {
-                agentinfo.is_auto_attack = 0;
+                AgentInfo agentinfo = go.GetComponent<AgentInfo>();
+                if (agentinfo.is_select)
+                {
+                    if (agentinfo.is_auto_attack == 1)
+                    {
+                        agentinfo.is_auto_attack = 0;
 
-            }else if(agentinfo.is_auto_attack ==0)
-            {
-                agentinfo.is_auto_attack=1;
-            }else
-            {
-                agentinfo.is_auto_attack = 0;
+                    }
+                    else if (agentinfo.is_auto_attack == 0)
+                    {
+                        agentinfo.is_auto_attack = 1;
+                    }
+                    else
+                    {
+                        agentinfo.is_auto_attack = 0;
+                    }
+
+                }
             }
+                
             
         }
 
@@ -101,6 +122,21 @@ public class PlayerRTSMove : MonoBehaviour
              {
                  moveto(target);
              }*/
+    }
+
+    void GetSelectedGameObject()
+    {
+        
+        foreach (GameObject go in gms)
+        {
+            if (go.GetComponent<AgentInfo>().is_select && !selectedGameObject.Contains(go))
+            {
+                selectedGameObject.Add(go); 
+            }else if (!go.GetComponent<AgentInfo>().is_select && selectedGameObject.Contains(go))
+            {
+                selectedGameObject.Remove(go);
+            }
+        }
     }
     
 }

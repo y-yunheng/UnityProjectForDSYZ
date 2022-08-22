@@ -41,9 +41,8 @@ public class AgentInfo : MonoBehaviour
     public float dturretRotation;//坦克炮塔需要旋转度（弧度）
     public float dheading;//坦克将要转向(弧度)，水平向右为0，逆时针旋转
     public bool is_reach_dpos=false;//坦克是否到达的目的地
+    
     public JArray action = JArray.Parse("[0,0,0,0]");//在FPS模式下操作坦克的动作空间
-
-
     private GameObject[] Agents;
     void Start()
     {
@@ -149,4 +148,12 @@ public class AgentInfo : MonoBehaviour
         }
 
     }
+
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+
+    }
+
 }

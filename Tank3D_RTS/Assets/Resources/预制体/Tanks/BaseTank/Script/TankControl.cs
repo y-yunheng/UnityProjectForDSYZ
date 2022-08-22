@@ -19,11 +19,13 @@ public class TankControl : MonoBehaviour
     public float turretSpeed = 10;
     public float MaxForce = 20000;//设置车辆最大牵引力
     public float rotateSpeed = 5;
+    public bool RTSContorl = true;
     private long last_fire_time;
     private JArray action;
     private AgentInfo agentinfo;
     private Vector3 tar_position;
     private GameObject[] agents;
+
     void Start()
     {
         //  前后，左右，开火
@@ -33,7 +35,6 @@ public class TankControl : MonoBehaviour
     {
         agentinfo=this.GetComponent<AgentInfo>();
         GameObject[] Agents = GameObject.FindGameObjectsWithTag("Tank");
-        
         agents=new GameObject[Agents.Length];
         foreach (GameObject Agent in Agents)
         {
@@ -44,39 +45,52 @@ public class TankControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!agentinfo.is_rts)
+        if(!RTSContorl)
         {
             action = this.GetComponent<AgentInfo>().action;
-        }else
+            FPS_Control();
+        }
+        else
         {
-            tar_position=new Vector3((float)agentinfo.dpos[0], (float)agentinfo.dpos[1], (float)agentinfo.dpos[2]);
-            if(tar_position-transform.position!=new Vector3(0,0,0))
-            {
-                moveto();
-            }
-            if(agentinfo.attack_id==-1)
-            {
-                Tutrret.transform.forward=Body.transform.forward;
-            }
-            attack(agentinfo.attack_id);
 
-            
-           
+
+            RTS_Control();
+
+
         }
         
     }
 
-   
+   void RTS_Control()
+    {
+        tar_position = new Vector3((float)agentinfo.dpos[0], (float)agentinfo.dpos[1], (float)agentinfo.dpos[2]);
+        if (tar_position - transform.position != new Vector3(0, 0, 0))
+        {
+            moveto();
+        }
+        if (agentinfo.attack_id == -1)
+        {
+            Tutrret.transform.forward = Body.transform.forward;
+        }
+        attack(agentinfo.attack_id);
+    }
+    void FPS_Control()
+    {
+        RibMove();
+        TurretTurn();
+        fired();
+    }
+
     void moveto()
-    {   
+    {
+        
         tar_position.y = transform.position.y;
-        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(tar_position - transform.position), 5 * Time.deltaTime);
-        transform.position = Vector3.MoveTowards(transform.position, tar_position, 5 * Time.deltaTime);
+        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(tar_position - transform.position), turretSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, tar_position, Maxspeed * Time.deltaTime);
     }
     void attack(int id)
     {
         //本方法执行的自动攻击相关命令
-        Debug.Log(agentinfo.enemies_can_attack.Count);
         if (agentinfo.enemies_can_attack.Contains(id))
         {
             Debug.Log(id + "  " + "可攻击");
@@ -84,7 +98,7 @@ public class TankControl : MonoBehaviour
             GameObject attack_agent = agents[attack_id];
             Vector3 tar_attck_position = attack_agent.transform.position;
             Vector3 enemy_my_direction = tar_attck_position - Tutrret.transform.position;
-            Tutrret.transform.rotation = Quaternion.Lerp(Tutrret.transform.rotation, Quaternion.LookRotation(enemy_my_direction), 5 * Time.deltaTime);
+            Tutrret.transform.rotation = Quaternion.Lerp(Tutrret.transform.rotation, Quaternion.LookRotation(enemy_my_direction), turretSpeed * Time.deltaTime);
             if (Vector3.Angle(Tutrret.transform.forward, enemy_my_direction) < 5)
             {
                 fired();
@@ -110,6 +124,43 @@ public class TankControl : MonoBehaviour
                 last_fire_time = nowtime;
 
             }
+    }
+    private void RibMove()
+    {
+        float ab = (float)action[0]; //Input.GetAxis("Vertical1");//油门与刹车
+        //WS方向控制
+        float turn = (float)action[1];//Input.GetAxis("Horizontal1");
+        //AD方向控制
+        //
+
+        //没有达到最大速度，继续加速
+        if (this.GetComponent<Rigidbody>().velocity.sqrMagnitude < (Vector3.forward * Maxspeed).sqrMagnitude)
+        {
+            //计算前向油门的力
+            float Force = ab * MaxForce;
+            this.GetComponent<Rigidbody>().AddForce(transform.forward * Force);
+            //计算旋转
+            this.transform.Rotate(Vector3.up * turn * Time.deltaTime * rotateSpeed);
+            /*      float a = 0.7f * turn;//转弯的角度
+                  Vector3 nowforward = Quaternion.AngleAxis(a*57.3f, Vector3.up)* transform.forward;
+                  Debug.Log(nowforward);
+                  float NowFowardForce = Force * Mathf.Cos(a * 57.3f);
+                  this.GetComponent<Rigidbody>().AddForce(nowforward * NowFowardForce);
+
+                  Vector3 NowRight = Quaternion.AngleAxis(a * 57.3f, Vector3.up)*transform.right;
+                  float NowRightForce = Force * Mathf.Sin(a * 57.3f);
+                  this.GetComponent<Rigidbody>().AddForce(NowRight * NowRightForce);*/
+        }
+
+
+
+
+    }
+
+    void TurretTurn()
+    {
+        float t = (float)action[2];
+        Tutrret.transform.Rotate(Vector3.up * t, Time.deltaTime * turretSpeed);
     }
     long gettime()
     {

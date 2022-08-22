@@ -54,131 +54,135 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\项目\杭州大数云智\UnityProject\UnityProjectForDSYZ\Tank3D\Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
+    <Analyzer Include="D:\项目\杭州大数云智\UnityProject\UnityProjectForDSYZ\Tank3D\Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
+    <Analyzer Include="D:\项目\杭州大数云智\UnityProject\UnityProjectForDSYZ\Tank3D\Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
+    <Analyzer Include="D:\项目\杭州大数云智\UnityProject\UnityProjectForDSYZ\Tank3D\Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Public\AsServer\SyncPython.cs" />
-    <Compile Include="Assets\Scripts\Tank\TankMovement.cs" />
-    <Compile Include="Assets\Scripts\Public\AgentsControl.cs" />
-    <Compile Include="Assets\Scripts\Public\NetWork\UDPClient.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-    <Compile Include="Assets\Scripts\Shell\ShellExplosion.cs" />
-    <Compile Include="Assets\Scripts\UI\UIDirectionControl.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\Prefabs\NetWork\Tank\TankInfoNet.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankShooting.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\Scripts\Tanks\Control\Playercontrol.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraControl.cs" />
-    <Compile Include="Assets\Scripts\Public\ObviousSend.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\UI\UIDirectionControl.cs" />
-    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\Managers\TankManager.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\Scripts\Tanks\Bull\BulletsFiredMy.cs" />
-    <Compile Include="Assets\Scripts\Public\FileShare.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\Scripts\Public\ShowOnly.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\Camera\CameraControl.cs" />
-    <Compile Include="Assets\Scripts\Public\AsServer\RecvicePython.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\Scripts\Public\AsClient\SyncObsClient.cs" />
-    <Compile Include="Assets\Scripts\Tanks\Control\AutoControl.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\Prefabs\NetWork\Tank\PlayercontrolNet.cs" />
-    <Compile Include="Assets\Scripts\Public\AsClient\SyncFrameClient.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\Tank\TankHealth.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\Scripts\Tanks\TankInfo.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\Scripts\Public\MemorySharePython.cs" />
-    <Compile Include="Assets\Scripts\Tanks\Control\TankControl.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\Scripts\Public\AsServer\SendPython.cs" />
-    <Compile Include="Assets\Prefabs\NetWork\Tank\TankControlNet.cs" />
-    <Compile Include="Assets\Scripts\Public\TransformSync.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\Shell\ShellExplosion.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\Public\AsClient\回收站\AsClient.cs" />
-    <Compile Include="Assets\Scripts\Public\MemoryShare.cs" />
-    <Compile Include="Assets\Prefabs\NetWork\Tank\TankPythonControlNet.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankHealth.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\Scripts\Managers\TankManager.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\Scripts\Tanks\TankMove.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\Scripts\Public\ManualControl.cs" />
-    <Compile Include="Assets\Scripts\Bull\BullDestory.cs" />
-    <Compile Include="Assets\Scripts\Tank\TankShooting.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\Prefabs\NetWork\Bull\BullDestoryNet.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\_Completed-Assets\Scripts\Tank\TankMovement.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\Scripts\Public\AsClient\回收站\AsClientPython.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AsServer\SyncPython.cs" />
+    <Compile Include="Assets\Scripts\Local\Tank\TankMovement.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AgentsControl.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\NetWork\UDPClient.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Scripts\Local\Shell\ShellExplosion.cs" />
+    <Compile Include="Assets\Scripts\Local\UI\UIDirectionControl.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\Tank\TankShooting.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\Local\Tanks\Control\Playercontrol.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\Local\Camera\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\ObviousSend.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\UI\UIDirectionControl.cs" />
+    <Compile Include="Assets\Scripts\Local\Managers\GameManager.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\Managers\TankManager.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\Local\Tanks\Bull\BulletsFiredMy.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\FileShare.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\ShowOnly.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\Camera\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AsServer\RecvicePython.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AsClient\SyncObsClient.cs" />
+    <Compile Include="Assets\Scripts\Local\Tanks\Control\AutoControl.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AsClient\SyncFrameClient.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Scripts\Local\Tank\TankHealth.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Scripts\Local\Tanks\TankInfo.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\MemorySharePython.cs" />
+    <Compile Include="Assets\Scripts\Local\Tanks\Control\TankControl.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AsServer\SendPython.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\TransformSync.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\Shell\ShellExplosion.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AsClient\回收站\AsClient.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\MemoryShare.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\Tank\TankHealth.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\Local\Managers\TankManager.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\Local\Tanks\TankMove.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\ManualControl.cs" />
+    <Compile Include="Assets\Scripts\Local\Bull\BullDestory.cs" />
+    <Compile Include="Assets\Scripts\Local\Tank\TankShooting.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\_Completed-Assets\Scripts\Tank\TankMovement.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\Local\Public\AsClient\回收站\AsClientPython.cs" />
+    <Compile Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\Mirro\Bull\BullDestoryNet.cs" />
+    <Compile Include="Assets\Scripts\Mirro\Tank\PlayercontrolNet.cs" />
+    <Compile Include="Assets\Scripts\Mirro\Tank\TankControlNet.cs" />
+    <Compile Include="Assets\Scripts\Mirro\Tank\TankInfoNet.cs" />
+    <Compile Include="Assets\Scripts\Mirro\Tank\TankPythonControlNet.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Fonts\Bowlby_One\FontLicense.txt" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Resources\TankTutorial\Fonts\Bowlby_One\FontLicense.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Tanks!_Third-PartyNotice.txt" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Mirror\Version.txt" />
-    <None Include="Assets\Mirror\Readme.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Mirror\Notice.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
-    <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\ScriptTemplates\53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Resources\Mirror\Version.txt" />
+    <None Include="Assets\Resources\Mirror\Readme.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Resources\Mirror\Notice.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Resources\Mirror\Plugins\Mono.Cecil\License.txt" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Resources\TankTutorial\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Resources\TankTutorial\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -424,9 +428,6 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
@@ -436,14 +437,8 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -451,11 +446,20 @@
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library\PackageCache\com.unity.analytics@3.5.3\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+      <HintPath>Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX">
+      <HintPath>Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Mdb">
+      <HintPath>Assets\Resources\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -972,41 +976,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{4F0DE81B-D47E-E31B-9503-FF1F24FE976A}</Project>
-      <Name>kcp2k</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{C937EBFD-55B3-1857-86CA-BA56CA5D631A}</Project>
-      <Name>Mirror.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{4D0A966B-2697-8C83-06BE-B635BE7E7DB0}</Project>
-      <Name>Mirror.CompilerSymbols</Name>
-    </ProjectReference>
     <ProjectReference Include="Mirror.Authenticators.csproj">
       <Project>{A12BF46F-DCD9-AA77-3B57-E87A539EA86C}</Project>
       <Name>Mirror.Authenticators</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{DE9F5E6F-EF1F-DEDF-C9A7-D211698AE8D9}</Project>
-      <Name>Telepathy</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{7FF0A197-2604-1866-0154-4485C9E8D788}</Project>
-      <Name>where-allocations</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{E78B8636-7E24-E94D-6F5D-3AA1CB240245}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
+    <ProjectReference Include="Mirror.Examples.csproj">
+      <Project>{33F4B2BD-9776-30D5-59DD-548EAA528E8C}</Project>
+      <Name>Mirror.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
+      <Project>{4D0A966B-2697-8C83-06BE-B635BE7E7DB0}</Project>
+      <Name>Mirror.CompilerSymbols</Name>
+    </ProjectReference>
+    <ProjectReference Include="where-allocations.csproj">
+      <Project>{7FF0A197-2604-1866-0154-4485C9E8D788}</Project>
+      <Name>where-allocations</Name>
+    </ProjectReference>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{DE9F5E6F-EF1F-DEDF-C9A7-D211698AE8D9}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
       <Project>{98B68EA6-22C0-60A5-4795-DA435C8BA677}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
-    <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{33F4B2BD-9776-30D5-59DD-548EAA528E8C}</Project>
-      <Name>Mirror.Examples</Name>
+    <ProjectReference Include="Mirror.Editor.csproj">
+      <Project>{C937EBFD-55B3-1857-86CA-BA56CA5D631A}</Project>
+      <Name>Mirror.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="kcp2k.csproj">
+      <Project>{4F0DE81B-D47E-E31B-9503-FF1F24FE976A}</Project>
+      <Name>kcp2k</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleWebTransport.csproj">
       <Project>{3EAEC230-7047-39CF-636D-01A1358D9B63}</Project>
