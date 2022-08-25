@@ -37,7 +37,7 @@ public class AgentInfo : MonoBehaviour
 
     /*这是坦克动作数据*/
     public JArray dpos= JArray.Parse("[0,0,0]");//坦克要去往的地点
-    public JArray attck_dpos = JArray.Parse("[0,0,0]");//坦克要去往的攻击的地点 如果有则会执行攻击
+    //public JArray attck_dpos = JArray.Parse("[0,0,0]");//坦克要去往的攻击的地点 如果有则会执行攻击
     public float dturretRotation;//坦克炮塔需要旋转度（弧度）
     public float dheading;//坦克将要转向(弧度)，水平向右为0，逆时针旋转
     public bool is_reach_dpos=false;//坦克是否到达的目的地
@@ -65,9 +65,11 @@ public class AgentInfo : MonoBehaviour
         set_is_reach_dpos();
         set_attacking();
         set_canobs();
-       
+        set_attack_id();
 
-       
+
+
+
     }
 
     void set_pos_rot()
@@ -148,9 +150,20 @@ public class AgentInfo : MonoBehaviour
         }
 
     }
+    void set_attack_id()
+    {
+        if (is_auto_attack != 0 && enemies_can_attack.Count > 0)
+        {
+            foreach (var id in enemies_can_attack)
+            {
+                int agentId = (int)id;
+                attack_id = agentId;
 
+            }
 
-
+        }
+    }
+    //本函数用于测试
     private void OnCollisionEnter(Collision collision)
     {
 

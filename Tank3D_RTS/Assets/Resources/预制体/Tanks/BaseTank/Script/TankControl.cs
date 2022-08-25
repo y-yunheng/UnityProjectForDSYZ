@@ -54,7 +54,7 @@ public class TankControl : MonoBehaviour
         {
 
 
-            RTS_Control();
+          RTS_Control();
 
 
         }
@@ -64,13 +64,15 @@ public class TankControl : MonoBehaviour
    void RTS_Control()
     {
         tar_position = new Vector3((float)agentinfo.dpos[0], (float)agentinfo.dpos[1], (float)agentinfo.dpos[2]);
+        Debug.Log(tar_position);
         if (tar_position - transform.position != new Vector3(0, 0, 0))
         {
             moveto();
         }
         if (agentinfo.attack_id == -1)
         {
-            Tutrret.transform.forward = Body.transform.forward;
+            Tutrret.transform.rotation = Quaternion.Lerp(Tutrret.transform.rotation, Quaternion.LookRotation(Body.transform.forward), turretSpeed * Time.deltaTime);
+   
         }
         attack(agentinfo.attack_id);
     }
@@ -78,12 +80,11 @@ public class TankControl : MonoBehaviour
     {
         RibMove();
         TurretTurn();
-        fired();
+        attack_fire();
     }
 
     void moveto()
     {
-        
         tar_position.y = transform.position.y;
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(tar_position - transform.position), turretSpeed * Time.deltaTime);
         transform.position = Vector3.MoveTowards(transform.position, tar_position, Maxspeed * Time.deltaTime);
@@ -109,6 +110,17 @@ public class TankControl : MonoBehaviour
         }
          
         
+    }
+
+    void attack_fire()
+    {
+        //本方法执行的自动攻击相关命令
+      if((float)action[3]!=0)
+        {
+            fired();
+        }
+
+
     }
     private void fired()
     {     
