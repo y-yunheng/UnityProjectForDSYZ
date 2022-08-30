@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AutoAttack : MonoBehaviour
 {
-    //本脚本致力于使得坦克可以自主选择攻击对象
+    //本脚本致力于使得Agent可以自主选择攻击对象
     // Start is called before the first frame update
     public AgentInfo agentInfo;
     private GameObject[] agents;

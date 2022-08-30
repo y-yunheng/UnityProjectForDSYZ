@@ -29,13 +29,13 @@ public class TankControl : MonoBehaviour
     void Start()
     {
         //  前后，左右，开火
-        tar_position = new Vector3((float)agentinfo.dpos[0], (float)agentinfo.dpos[1], (float)agentinfo.dpos[2]);
+       
     }
     private void Awake()
     {
         agentinfo=this.GetComponent<AgentInfo>();
-        GameObject[] Agents = GameObject.FindGameObjectsWithTag("Tank");
-        agents=new GameObject[Agents.Length];
+        GameObject[] Agents = GameObject.FindGameObjectsWithTag("Agents");
+        agents =new GameObject[Agents.Length];
         foreach (GameObject Agent in Agents)
         {
             int id = Agent.GetComponent<AgentInfo>().id;
@@ -45,25 +45,12 @@ public class TankControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!RTSContorl)
-        {
-            action = this.GetComponent<AgentInfo>().action;
-            FPS_Control();
-        }
-        else
-        {
-
-
-          RTS_Control();
-
-
-        }
-        
+        RTS_Control();
     }
 
    void RTS_Control()
     {
-        tar_position = new Vector3((float)agentinfo.dpos[0], (float)agentinfo.dpos[1], (float)agentinfo.dpos[2]);
+        tar_position = new Vector3((float)agentinfo.dpos[0], transform.position.y, (float)agentinfo.dpos[2]);
         Debug.Log(tar_position);
         if (tar_position - transform.position != new Vector3(0, 0, 0))
         {

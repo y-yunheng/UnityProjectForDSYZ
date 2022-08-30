@@ -17,7 +17,7 @@ public class PythonControl : MonoBehaviour
     }
     private void Awake()
     {
-        Agents = GameObject.FindGameObjectsWithTag("Tank");
+        Agents = GameObject.FindGameObjectsWithTag("Agents");
         
     }
 
@@ -52,7 +52,13 @@ public class PythonControl : MonoBehaviour
             foreach (GameObject agent in Agents)
             {
                 AgentInfo agentInfo = agent.GetComponent<AgentInfo>();
-                //Debug.Log(actions.ToString());
+                object info;
+                switch (agentInfo.agent_type)
+                {
+                    case 0: info= agent.GetComponent<TankInfo>(); break;
+                    case 1: info = agent.GetComponent<FlyInfo>(); break;
+                }
+
                 agentInfo.action = (JArray)actions[agentInfo.id];  
             } 
         }
@@ -77,7 +83,7 @@ public class PythonControl : MonoBehaviour
             obs.Add(agentInfo.pos[1]);
             obs.Add(agentInfo.pos[2]);
             obs.Add(agentInfo.alive);
-            rewards.Add(agentInfo.reward);
+
             obsjarray.Add(obs);
             if (agentInfo.alive==1 && agentInfo.group==0)
             {

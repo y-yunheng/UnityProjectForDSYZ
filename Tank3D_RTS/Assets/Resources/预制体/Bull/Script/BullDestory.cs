@@ -45,7 +45,7 @@ public class BullDestory : MonoBehaviour
         }
         
         Debug.Log(collision.gameObject.name);
-        //如果打到了别人坦克
+        //如果打到了别人Agent
         if (collision.gameObject.tag=="Tank")
         {
             

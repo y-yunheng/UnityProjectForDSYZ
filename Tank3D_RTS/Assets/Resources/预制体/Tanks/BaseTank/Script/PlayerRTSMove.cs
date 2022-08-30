@@ -17,7 +17,7 @@ public class PlayerRTSMove : MonoBehaviour
     }
     void Awake()
     {
-       gms = GameObject.FindGameObjectsWithTag("Tank");
+       gms = GameObject.FindGameObjectsWithTag("Agents");
     }
 
     void Update()
