@@ -8,11 +8,25 @@ public class BullDestory : MonoBehaviour
 {
     // Start is called before the first frame update
     public int id;
-    public GameObject particle;
+    public  ParticleSystem[] particles;
     private long starttime = 0;
+    private GameObject[] Agents;
+    private AgentInfo myagentInfo;
     void Start()
     {
         starttime=gettime();
+    }
+    private void Awake()
+    {
+        Agents = GameObject.FindGameObjectsWithTag("Tank");
+        foreach (GameObject agent in Agents)
+        {
+            if(agent.GetComponent<AgentInfo>().id ==id)
+            {
+                myagentInfo = agent.GetComponent<AgentInfo>();
+            }
+        }
+
     }
 
     // Update is called once per frame
@@ -25,8 +39,13 @@ public class BullDestory : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        particle.GetComponent<ParticleSystem>().Play();
+        foreach(ParticleSystem particle in particles)
+        {
+            particle.Play();
+        }
+        
         Debug.Log(collision.gameObject.name);
+        //如果打到了别人坦克
         if (collision.gameObject.tag=="Tank")
         {
             
@@ -34,19 +53,19 @@ public class BullDestory : MonoBehaviour
             AgentInfo agentinfo= agent.GetComponent<AgentInfo>();
             agentinfo.hp=agentinfo.hp-1;
             agentinfo.be_attacked = 1;
+            agentinfo.reward=-1;
             if (agentinfo.hp>0)
             {
                 agentinfo.alive = 1;
             }else
             {
                 agentinfo.alive = 0;
-               collision.gameObject.SetActive(false);
+                collision.gameObject.SetActive(false);
+                myagentInfo.reward+=10;
             }
-            
-
-
-            
-        }    
+            myagentInfo.reward=1;
+        }  
+        
     }
     long gettime()
     {

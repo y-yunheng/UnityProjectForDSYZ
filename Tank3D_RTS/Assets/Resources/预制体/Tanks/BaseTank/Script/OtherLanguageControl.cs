@@ -2,6 +2,7 @@ using Newtonsoft.Json.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OtherLanguageControl : MonoBehaviour
 {
@@ -22,21 +23,27 @@ public class OtherLanguageControl : MonoBehaviour
     {
         //string sendmsg = GetMsg();
        // mp.WriteMemory(sendmsg, "Cshape");
-        string msg = mp.ReadMemory("Python");
+        /*string msg = mp.ReadMemory("Python");
         Debug.Log(msg);
         JObject msgobj=JObject.Parse(msg);
-        /*JArray action = (JArray)msgobj["Action"];
+        string packetname = (string)msgobj["PacketName"];
+        if(packetname.Equals("AgentInput"))
+        {
+            string SceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(SceneName);
+        }
+        *//*JArray action = (JArray)msgobj["Action"];
         int agentid = (int)msgobj["AgentId"];
         if(agentid == agentInfo.id)
         {
             agentInfo.action = action;
-        }*/
+        }*//*
         JArray pos = (JArray)msgobj["Pos"];
         int agentid = (int)msgobj["AgentId"];
         if (agentid == agentInfo.id)
         {
             agentInfo.dpos = pos;
-        }
+        }*/
     }
 
     void loaclOP(JArray dpos)

@@ -23,7 +23,6 @@ public class PlayerRTSMove : MonoBehaviour
     void Update()
     {
         GetSelectedGameObject();
-        Debug.Log(selectedGameObject.Count);
         if (Input.GetMouseButtonDown(1))
         {
             Debug.Log("运行");

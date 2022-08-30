@@ -37,11 +37,15 @@ public class AgentInfo : MonoBehaviour
 
     /*这是坦克动作数据*/
     public JArray dpos= JArray.Parse("[0,0,0]");//坦克要去往的地点
+    public bool isreach_dpos = true;
     //public JArray attck_dpos = JArray.Parse("[0,0,0]");//坦克要去往的攻击的地点 如果有则会执行攻击
     public float dturretRotation;//坦克炮塔需要旋转度（弧度）
     public float dheading;//坦克将要转向(弧度)，水平向右为0，逆时针旋转
     public bool is_reach_dpos=false;//坦克是否到达的目的地
-    
+
+    /*强化学习相关*/
+    public int reward=0;
+
     public JArray action = JArray.Parse("[0,0,0,0]");//在FPS模式下操作坦克的动作空间
     private GameObject[] Agents;
     void Start()
@@ -54,22 +58,19 @@ public class AgentInfo : MonoBehaviour
         dpos[0] = transform.position.x;
         dpos[1] = transform.position.y;
         dpos[2] = transform.position.z;
-       
+        isreach_dpos = true;
+        set_pos_rot();
 
     }
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(dpos.ToString());
         set_pos_rot();
         set_is_reach_dpos();
         set_attacking();
         set_canobs();
         set_attack_id();
-
-
-
-
     }
 
     void set_pos_rot()
@@ -163,10 +164,20 @@ public class AgentInfo : MonoBehaviour
 
         }
     }
+
+    void set_isreach_dpos()
+    {
+        Debug.Log("到达了"+isreach_dpos);
+        Vector3 tar_position = new Vector3((float)dpos[0], (float)dpos[1], (float)dpos[2]);
+        if (tar_position - transform.position == new Vector3(0, 0, 0))
+        {
+            isreach_dpos = true;
+        }
+    }
     //本函数用于测试
     private void OnCollisionEnter(Collision collision)
     {
-
+        reward = -1;
     }
 
 }

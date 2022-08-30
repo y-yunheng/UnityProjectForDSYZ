@@ -17,7 +17,7 @@ class MemorySharePython
     private MemoryMappedFile mmfsend;
     private MemoryMappedViewAccessor viewAccessorSend;
 
-    public MemorySharePython( int memorysize =10000)
+    public MemorySharePython( int memorysize =4096)
     {
       
         this.memorysize = memorysize;
@@ -30,13 +30,13 @@ class MemorySharePython
     public void WriteMemory(string sengstr, string Sendfilename)
     {
         sengstr = sengstr + "@";
-        //MemoryMappedFile.OpenExisting(Sendfilename)
         mmfsend = MemoryMappedFile.CreateOrOpen(Sendfilename, memorysize, MemoryMappedFileAccess.ReadWrite);
         viewAccessorSend = mmfsend.CreateViewAccessor(0, sengstr.Length);
         viewAccessorSend.Write(0, sengstr.Length);
         viewAccessorSend.WriteArray<byte>(0, System.Text.Encoding.ASCII.GetBytes(sengstr), 0, sengstr.Length);
-    }
 
+    }
+ 
 
     public string ReadMemory(string Recvicefilename)
     {

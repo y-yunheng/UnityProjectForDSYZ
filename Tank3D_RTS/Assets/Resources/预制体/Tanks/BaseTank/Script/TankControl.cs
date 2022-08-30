@@ -25,7 +25,7 @@ public class TankControl : MonoBehaviour
     private AgentInfo agentinfo;
     private Vector3 tar_position;
     private GameObject[] agents;
-
+    private float train_num=1;
     void Start()
     {
         //  前后，左右，开火
@@ -132,7 +132,7 @@ public class TankControl : MonoBehaviour
                 Rigidbody bull_rigidbody = insbull.GetComponent<Rigidbody>();
                 BullDestory bull_destory = insbull.GetComponent<BullDestory>();
                 bull_destory.id = agentinfo.id;
-                bull_rigidbody.velocity = bullposition.transform.forward * firedSpeed;
+                bull_rigidbody.velocity = bullposition.transform.forward * firedSpeed*train_num;
                 last_fire_time = nowtime;
 
             }
@@ -150,9 +150,9 @@ public class TankControl : MonoBehaviour
         {
             //计算前向油门的力
             float Force = ab * MaxForce;
-            this.GetComponent<Rigidbody>().AddForce(transform.forward * Force);
+            this.GetComponent<Rigidbody>().AddForce(transform.forward * Force*train_num);
             //计算旋转
-            this.transform.Rotate(Vector3.up * turn * Time.deltaTime * rotateSpeed);
+            this.transform.Rotate(Vector3.up * turn * Time.deltaTime * rotateSpeed*train_num);
             /*      float a = 0.7f * turn;//转弯的角度
                   Vector3 nowforward = Quaternion.AngleAxis(a*57.3f, Vector3.up)* transform.forward;
                   Debug.Log(nowforward);
@@ -172,7 +172,7 @@ public class TankControl : MonoBehaviour
     void TurretTurn()
     {
         float t = (float)action[2];
-        Tutrret.transform.Rotate(Vector3.up * t, Time.deltaTime * turretSpeed);
+        Tutrret.transform.Rotate(Vector3.up * t, Time.deltaTime * turretSpeed*train_num);
     }
     long gettime()
     {
